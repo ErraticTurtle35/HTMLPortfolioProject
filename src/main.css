@@ -5,57 +5,51 @@ header{
     text-align: center;
     font-size: 1.9em;
     font-family: 'Raleway', sans-serif;
-    font-weight: lighter
+    font-weight: lighter;
+    color: #363636;
 }
-
-*, *:before, *:after {
-  -moz-box-sizing: border-box; 
-  -webkit-box-sizing: border-box; 
-  box-sizing: border-box;
-}
-
 body { 
     margin: 0;
 }
 
 h3{
-    font-weight: normal;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+    font-size: 3em;
 }
-
 ul {
     padding: .5em;
     list-style: none;
 }
-
-.leftColumn .tagline{ padding: 2.3em;}
-.rightColumn .taglineContent { font-family: 'Raleway', sans-serif; font-size: 1.5em; padding: .5em;}
-
-.leftColumn .skills{ padding:  2.3em;}
-.rightColumn .skillContent{ font-family: 'Raleway', sans-serif; font-size: 1.5em;}
-
-.leftColumn .contact{ padding: 4.2em;}
-.rightColumn .contactContent{font-family: 'Raleway', sans-serif; font-size: 1.5em;}
-
-.columnsContainer, footer, header {
-    position: relative;
-    margin: .1em; 
+.tagline{
+    text-align: center;
+    color: #E8175D;
 }
-.leftColumn, .rightColumn, footer, header {  
-    border: 1px solid  #ccc; 
-    padding: 1.25em; 
+.tagline p{
+    color: #363636;
+    font-family: 'Raleway', sans-serif;
+    font-weight: lighter;
+    font-size: 1.5em;
 }
-@media screen and (min-width: 47.5em ) {
-    .leftColumn {
-        position: absolute;
-        top: 0;
-        width: 20em;
-        text-align: center;
-        font-family: 'Raleway', sans-serif;
-    }
-    .rightColumn {
-         position: absolute;
-         top: 0;
-         right: 0;
-         left: 20.5em;
-    }   
+
+.skills{
+    text-align: center;
+    color: #E8175D;
+}
+.skills ul {
+    color: #363636;
+    font-family: 'Raleway', sans-serif;
+    font-weight: lighter;
+    font-size: 1.5em;    
+}
+
+.contact{
+    text-align: center;
+    color: #E8175D;
+}
+.contact p{
+    color: #363636;
+    font-family: 'Raleway', sans-serif;
+    font-weight: lighter;
+    font-size: 1.5em;
 }
