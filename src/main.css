@@ -4,9 +4,13 @@
 header{
     text-align: center;
     font-size: 1.9em;
-    font-family: 'Raleway', sans-serif;
     font-weight: lighter;
     color: #363636;
+}
+h2{
+    font-family: 'Raleway', sans-serif;
+    font-weight: lighter;
+    font-size: 1em;
 }
 body { 
     margin: 0;
@@ -35,6 +39,12 @@ ul {
 .skills{
     text-align: center;
     color: #E8175D;
+}
+.skills p {
+    color: #363636;
+    font-family: 'Raleway', sans-serif;
+    font-weight: lighter;
+    font-size: 1.5em;        
 }
 .skills ul {
     color: #363636;
